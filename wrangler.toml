@@ -1,9 +1,18 @@
 name = "tutor" # todo
-#name = "cf-worker-connect-test" # todo
+#name = "akun-vless-sg" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
+[[routers]]
+pattern = "sg.ibnuopenwrt.my.id"
+custom_domain = true
+[[routers]]
+pattern = "nontontv.vidio.com.sg.ibnuopenwrt.my.id"
+custom_domain = true
+[[routers]]
+pattern = "quiz.int.vidio.com.sg.ibnuopenwrt.my.id"
+custom_domain = true
 
 [vars]
 # UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
@@ -12,4 +21,4 @@ compatibility_date = "2023-05-26"
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
 # API_HOST = "api.v2board.com"
-UUID = "60a260cc-3c23-44a1-8974-d546f1438c67"
+UUID = "24e27ef6-fbe5-48f2-bbc3-afa1a57daa4a"
